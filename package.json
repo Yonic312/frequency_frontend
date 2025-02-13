@@ -44,5 +44,13 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://frequency-frontend.onrender.com"
+  "homepage": "https://frequency-frontend.onrender.com",
+  "babel": {
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-private-property-in-object"
+    ]
+  }
 }
