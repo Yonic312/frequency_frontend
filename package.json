@@ -8,7 +8,8 @@
     "build": "react-scripts build",
     "dev": "vite",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "serve": "serve -s build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
