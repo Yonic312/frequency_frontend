@@ -4,14 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "PORT=3000 react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "PORT=8080 react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
   "eject": "react-scripts eject",
-    "dev": "vite",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "serve": "serve -s build"
+  "dev": "vite",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "serve": "serve -s build -l 8080" 
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
